@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix = "al!")
+bot = commands.Bot(command_prefix = "/")
 
 class BotData:
     def __init__(self):
@@ -32,4 +32,4 @@ async def dm_all(ctx, *, args=None):
     else:
         await ctx.channel.send("A message was not provided.")
 
-bot.run ("Token")
+bot.run ("NzY1MjE0NTQwNzczMTk1ODM2.X4Rjkw.axDQ4unz0nWvNSPxHuGu6SGJQTg")
